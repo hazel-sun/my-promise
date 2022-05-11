@@ -1,0 +1,22 @@
+{
+  "name": "my-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "scripts": {
+    "test": "promises-aplus-tests myPromise"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazel-sun/my-promise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazel-sun/my-promise/issues"
+  },
+  "homepage": "https://github.com/hazel-sun/my-promise#readme",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
