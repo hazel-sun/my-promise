@@ -13,7 +13,7 @@
 // 如果是异步回调，保存的成功失败的回调需要不同的值保存
 // 
 class myPromise {
-  static PENDING = 'pending';
+  static PENDING = 'pending';   
   static FULFILLED = 'fulfilled';
   static REJECTED = 'rejected';
   // 存储成功回调函数
@@ -56,6 +56,7 @@ class myPromise {
     }
   }
   /**
+   * 具有链式调用 + 值穿透性
    * thenable 的特性使得 Promise 的实现更具有通用性：只要其暴露出一个遵循 Promises/A+ 协议的 then 方法即可；这同时也使遵循 Promises/A+ 规范的实现可以与那些不太规范但可用的实现能良好共存
    * then方法本身会返回一个新的Promise对象
    * x(onFulfilled 或者 onRejected 返回一个值 x)
